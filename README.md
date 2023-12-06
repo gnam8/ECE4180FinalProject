@@ -1,3 +1,5 @@
+<br><img src="robot.heic" style="height:600px:>
+
 # TechTreat Trailblazer
 
 Georgia Institute of Technology ECE 4180 Final Project
