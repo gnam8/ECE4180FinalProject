@@ -1,4 +1,4 @@
-<br><img src="robot.heic" style="height:600px:>
+<br><img src="robot.png" style="height:600px:>
 
 # TechTreat Trailblazer
 
