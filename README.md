@@ -25,8 +25,8 @@ The main functionalities are:
   - Power Amplifier
   - LED
   - RC Servo
-  - Solenoid
-  - MOSFET Driver Motor
+  - Solenoid [TODO]: Delete??
+  - MOSFET Driver Motor [TODO]: Delete??
   - Adafruit Bluetooth Module
   - 2 5V External Power Supplies
   - Metal Plate
@@ -35,3 +35,79 @@ The main functionalities are:
   - Plastic water bottles
   - Cardboard
 
+## Mbed Components Pinouts
+[TODO]: Make sure the pins are correct
+
+ H-Bridge and Motors
+ 
+ |  H-Bridge  |  Mbed  |  Right Motor  |  Left Motor  |  Battery Pack  |
+ |------------|--------|---------------|--------------|----------------|
+ |     VM     |        |               |              |        +       |
+ |    VCC     |  VOUT  |               |              |                |
+ |    GND     |   GND  |               |              |        -       |
+ |    STBY    |  VOUT  |               |              |                |
+ |    PWMA    |   p22  |               |              |                |
+ |    AIN1    |   p13  |               |              |                |
+ |    AIN2    |   p12  |               |              |                |
+ |    AO1     |        |       +       |              |                |
+ |    AO2     |        |       -       |              |                |
+ |    PWMA    |   p21  |               |              |                |
+ |    AIN1    |   p11  |               |              |                |
+ |    AIN2    |   p8   |               |              |                |
+ |    AO1     |        |               |       +      |                |
+ |    AO2     |        |               |       -      |                |
+ 
+ Ultrasonic Sensor
+ 
+ |  Mbed    |   HC-SR04   |
+ |----------|-------------|
+ |  Vu(5V)  |     Vcc     |
+ |   Gnd    |     Gnd     |
+ |    p6    |     trig    |
+ |    p7    |     echo    |
+ 
+ Power Amplifier and Speaker
+ 
+ |  Mbed   |  Class D Audio Amp  | Speaker | External Battery |
+ |---------|---------------------|---------|------------------|
+ |   GND   |     PWR, IN-        |         |                  |
+ |         |       PWR+          |         |        5V        |
+ |   p18   |        IN+          |         |                  |
+ |         |       OUT+          |    +    |                  |
+ |         |       OUT-          |    -    |                  |
+
+ LED
+ |          Mbed         |   LED   |
+ |-----------------------|---------|
+ |          gnd          |    +    |
+ |          GND          |    -    |
+ 
+
+ RC Servo
+ |  Mbed   |       servo      | External Battery |
+ |---------|------------------|------------------|
+ |   GND   |        Gnd       |       Gnd        |
+ |         |       Power      |        5V        |
+ |   p18   | PWM Signal Input |                  |
+
+
+ Solenoid [TODO]: Delete??
+
+ MOSFET Driver [TODO]: Delete??
+
+ Adafruit Bluetooth
+ |          Mbed         |   Adafruit BLE   |
+ |-----------------------|------------------|
+ |          gnd          |        gnd       |
+ |          Vu           |        Vin       |
+ |          nc           |        RTS       |
+ |          gnd          |        CTS       |
+ |     p27 (Serial RX)   |        TXO       |
+ |     p28 (Serial TX)   |        RXI       |
+
+
+## Wiring Diagram
+[TODO]: Include a schematic here
+
+## Mbed Code
+The entire code for this robot can be found at ().
