@@ -1,4 +1,4 @@
-<br><img src="/Users/namgayeong/Desktop/robot.png" style="height:600px:>
+<br><img src="robot.png" style="height:600px:>
 
 # TechTreat Trailblazer
 
