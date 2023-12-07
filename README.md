@@ -118,7 +118,7 @@ The main functionalities are:
 
 
 ## Wiring Diagram
-![Model](schematic.jpeg)
+![Model](schematic.png)
 
 ## Mbed Code
 The entire code for this robot can be found at ().
