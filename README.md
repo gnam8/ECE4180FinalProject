@@ -1,5 +1,4 @@
-![Model](robot_with_dog.heic)   
-![Model](robot.heic)
+![Model](robot_with_dog.png)         ![Model](robot.png)
 
 # TechTreat Trailblazer
 
