@@ -121,11 +121,13 @@ The main functionalities are:
 ![Model](schematic.png)
 
 ## Video Demonstration
+-Overall Video Demo with explanation : https://youtu.be/0Krj9eimrRo
 
 -Basic functionalities with four buttons (1: honk, 2: food dispenser, 3: water dispenser, 4: LED light) : https://youtu.be/LXtGdBHyvaE
 
 -Food Dispensing feature
-https://github.com/gnam8/ECE4180FinalProject/assets/98716123/b370304f-263c-4ed2-aa05-cf59ba40050e
+
+https://github.com/gnam8/ECE4180FinalProject/assets/98716123/2747682f-8e00-4b3d-8de5-7ad27ab6517c
 
 
 
