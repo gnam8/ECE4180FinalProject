@@ -122,6 +122,9 @@ The main functionalities are:
 
 ## Video Demonstration
 
+https://github.com/gnam8/ECE4180FinalProject/assets/98716123/b370304f-263c-4ed2-aa05-cf59ba40050e
+
+
 
 ## Mbed Code
 The entire code for this robot can be found at ().
