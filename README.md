@@ -1,4 +1,4 @@
-
+<br><img src="schematic.jpeg" style="height:600px:>
 
 # TechTreat Trailblazer
 
