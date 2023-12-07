@@ -1,4 +1,5 @@
 <br><img src="ECE4180FinalProject/robot.png" style="height:600px:>
+![Model](robot.png)
 
 # TechTreat Trailblazer
 
