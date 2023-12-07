@@ -6,14 +6,16 @@ Georgia Institute of Technology ECE 4180 Final Project
 
 Team Members: Chanel Gautama, Gayoung Nam, Jeremy Chen
 
+
 ## Description
 
-TechTreat Trailblazer is a bluetooth-controlled pet feeder robot that dispenses food, drive around and play with your pets.
+TechTreat Trailblazer is a bluetooth-controlled pet feeder robot that dispenses food, drives around and plays with your pets.
 The main functionalities are:
   - Move forward, backward, and make left/right turns
   - A ultrasonic sensor prevents the robot from crashing to objects
-  - Dispenses pet food
+  - Dispense pet food
   - Honk and display a mini light show
+
 
 ## List of Components
   - Mbed
@@ -34,6 +36,7 @@ The main functionalities are:
   - Jumper Wires
   - Plastic water bottles
   - Cardboard
+
 
 ## Mbed Components Pinouts
  Dual H-Bridge and Motors
@@ -117,8 +120,10 @@ The main functionalities are:
  |     p28 (Serial TX)   |        RXI       |
 
 
+
 ## Wiring Diagram
 ![Model](schematic.png)
+
 
 ## Video Demonstration
 -Overall Video Demo with explanation : https://youtu.be/0Krj9eimrRo
@@ -128,7 +133,6 @@ The main functionalities are:
 -Food Dispensing feature
 
 https://github.com/gnam8/ECE4180FinalProject/assets/98716123/2747682f-8e00-4b3d-8de5-7ad27ab6517c
-
 
 
 ## Mbed Code
