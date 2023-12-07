@@ -19,7 +19,7 @@ The main functionalities are:
   - Mbed
   - 4 DC Motors
   - 4 Wheels
-  - H-Bridge
+  - Dual H-Bridge
   - Ultrasonic Sensor (HC-SR04)
   - Speaker
   - Power Amplifier
@@ -36,9 +36,7 @@ The main functionalities are:
   - Cardboard
 
 ## Mbed Components Pinouts
-[TODO]: Make sure the pins are correct
-
- H-Bridge and Motors
+ Dual H-Bridge and Motors
  
  |  H-Bridge  |  Mbed  |  Right Motor  |  Left Motor  |  Battery Pack  |
  |------------|--------|---------------|--------------|----------------|
@@ -46,16 +44,17 @@ The main functionalities are:
  |    VCC     |  VOUT  |               |              |                |
  |    GND     |   GND  |               |              |        -       |
  |    STBY    |  VOUT  |               |              |                |
- |    PWMA    |   p22  |               |              |                |
- |    AIN1    |   p13  |               |              |                |
- |    AIN2    |   p12  |               |              |                |
+ |    PWMA    |   p21  |               |              |                |
+ |    AIN1    |   p6   |               |              |                |
+ |    AIN2    |   p5   |               |              |                |
  |    AO1     |        |       +       |              |                |
  |    AO2     |        |       -       |              |                |
- |    PWMA    |   p21  |               |              |                |
- |    AIN1    |   p11  |               |              |                |
- |    AIN2    |   p8   |               |              |                |
- |    AO1     |        |               |       +      |                |
- |    AO2     |        |               |       -      |                |
+ |    BO1     |        |               |       +      |                |
+ |    BO2     |        |               |       -      |                |
+ |    PWMB    |   p22  |               |              |                |
+ |    BIN1    |   p7   |               |              |                |
+ |    BIN2    |   p8   |               |              |                |
+ 
  
  Ultrasonic Sensor
  
@@ -63,8 +62,9 @@ The main functionalities are:
  |----------|-------------|
  |  Vu(5V)  |     Vcc     |
  |   Gnd    |     Gnd     |
- |    p6    |     trig    |
- |    p7    |     echo    |
+ |    p15   |     trig    |
+ |    p16   |     echo    |
+ 
  
  Power Amplifier and Speaker
  
@@ -72,30 +72,41 @@ The main functionalities are:
  |---------|---------------------|---------|------------------|
  |   GND   |     PWR, IN-        |         |                  |
  |         |       PWR+          |         |        5V        |
- |   p18   |        IN+          |         |                  |
+ |   p26   |        IN+          |         |                  |
  |         |       OUT+          |    +    |                  |
  |         |       OUT-          |    -    |                  |
 
+
  LED
+ 
  |          Mbed         |   LED   |
  |-----------------------|---------|
- |          gnd          |    +    |
+ |          p30          |    +    |
  |          GND          |    -    |
  
 
  RC Servo
+ 
  |  Mbed   |       servo      | External Battery |
  |---------|------------------|------------------|
- |   GND   |        Gnd       |       Gnd        |
- |         |       Power      |        5V        |
- |   p18   | PWM Signal Input |                  |
+ |   GND   |         -        |       Gnd        |
+ |         |         +        |        5V        |
+ |   p24   | PWM Signal Input |                  |
 
 
- Solenoid [TODO]: Delete??
+ Solenoid 
+ 
+ |  Mbed   |    MOSFET PCB      |     Solenoid    | External Battery |
+ |---------|--------------------|-----------------|------------------|
+ |   GND   |     JP2-2 gnd      |                 |       gnd        |
+ |         |     JP2-1 RAW      |                 |       5V         |
+ |   p18   |     JP2-3 Control  |                 |                  |
+ |         |     JP1-1          |     Device(-)   |                  |
+ |         |     JP1-2          |     Device(+)   |                  |
 
- MOSFET Driver [TODO]: Delete??
 
  Adafruit Bluetooth
+ 
  |          Mbed         |   Adafruit BLE   |
  |-----------------------|------------------|
  |          gnd          |        gnd       |
@@ -107,7 +118,7 @@ The main functionalities are:
 
 
 ## Wiring Diagram
-[TODO]: Include a schematic here
+<br><img src="schematic.png" style="height:600px:>
 
 ## Mbed Code
 The entire code for this robot can be found at ().
