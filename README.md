@@ -122,6 +122,9 @@ The main functionalities are:
 
 ## Video Demonstration
 
+-Basic functionalities with four buttons (1: honk, 2: food dispenser, 3: water dispenser, 4: LED light) : https://youtu.be/LXtGdBHyvaE
+
+-Food Dispensing feature
 https://github.com/gnam8/ECE4180FinalProject/assets/98716123/b370304f-263c-4ed2-aa05-cf59ba40050e
 
 
