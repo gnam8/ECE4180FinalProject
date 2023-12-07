@@ -1,4 +1,4 @@
-![Model](robot_with_dog.png)         ![Model](robot.png)
+![Model](robot_with_dog.png)         ![Model](robot.png)         ![Model](topview.png)
 
 # TechTreat Trailblazer
 
