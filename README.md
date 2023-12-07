@@ -25,8 +25,8 @@ The main functionalities are:
   - Power Amplifier
   - LED
   - RC Servo
-  - Solenoid [TODO]: Delete??
-  - MOSFET Driver Motor [TODO]: Delete??
+  - Solenoid 
+  - MOSFET Driver Motor
   - Adafruit Bluetooth Module
   - 2 5V External Power Supplies
   - Metal Plate
