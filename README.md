@@ -1,4 +1,4 @@
-<br><img src="robot.png" style="height:600px:>
+<br><img src="ECE4180FinalProject/robot.png" style="height:600px:>
 
 # TechTreat Trailblazer
 
